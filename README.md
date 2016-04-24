@@ -5,6 +5,13 @@ Hey guys,
 I have been starting developing our portal.
 The aim of this site is keeping track of people working at Freecodecamp track in London in order to have an easy tools to keep in touch with each other, meet new people and track at which point of the FCC track others are..so we can connect easily with others are at the same point of the track if we are willing to pair programming.
 
+# HOWTO Install
+1. `npm install npm -g` (update your npm)
+1. `npm install`
+1. `bower install`
+1. `gulp`
+1. `gulp watch`
+
 #Brief..so far..
 You can find the portal live at http://artitudinale.org.uk/FCCLND/app/#/
 
