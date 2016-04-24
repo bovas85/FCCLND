@@ -1,0 +1,64 @@
+<div class="col-xs-12 filter">
+      <button data-filter="grid-item" ng-click="iso.arrange({ filter: '.grid-item' }); showFE=false; showDV=false; showBK=false ">ALL</button>
+      <button data-filter="frontend" ng-click="iso.arrange({ filter: '.frontend'}); showFE=true;  showDV=false; showBK=false ">FRONTEND</button>
+       <button data-filter="data-visual" ng-click="iso.arrange({ filter: '.data-visual'}); showDV=true;  showFE=false; showBK=false">DATA VISUALIZATION</button>
+      <button data-filter="backend" ng-click="iso.arrange({ filter: '.backend' }); showBK=true; showFE=false; showDV=false">BACKEND</button>
+      <div class="frontend-filter " ng-show="showFE">
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: ' .html-css' })">HTML/CSS</button>
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: ' .bootstrap' })">Bootsrap</button>
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: ' .FE-projects' })">FE projects</button>
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: ' .opp-f' })">OPP vs functional</button>
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: ' .basic-alghorithm' })">Basic Algorithtm</button>
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: '.ajax' })">Ajax</button>
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: ' .inter-FE' })">Inter FE</button>
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: '. .inter-alghorithm' })">Inter Algorithtm</button>
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: ' .adv-algorithm' })">Adv Algorithtm</button>
+                <button data-filter="frontend" ng-click="iso.arrange({ filter: ' .adv-FE-projects' })">Adv FE projects</button>
+
+      </div>
+           <div class="datavisual-filter" ng-show="showDV">
+                <button data-filter="data-visual" ng-click="iso.arrange({ filter: ' .sass' })">SASS</button>
+                <button data-filter="data-visual" ng-click="iso.arrange({ filter: '.react' })">React</button>
+                <button data-filter="data-visual" ng-click="iso.arrange({ filter: ' .react-projects' })">React projects</button>
+                <button data-filter="data-visual" ng-click="iso.arrange({ filter: ' .d3' })">D3</button>
+                <button data-filter="data-visual" ng-click="iso.arrange({ filter: '.data-visual-projects' })">DV Projects</button>
+      </div>
+      <div class="backend-filter" ng-show="showBK">
+                <button data-filter="backend" ng-click="iso.arrange({ filter: ' .test-debug' })">Test/Debug</button>
+                <button data-filter="backend" ng-click="iso.arrange({ filter: ' .nodeExpress' })">Node/Express</button>
+                <button data-filter="backend" ng-click="iso.arrange({ filter: ' .git' })">Git</button>
+                <button data-filter="backend" ng-click="iso.arrange({ filter: ' .mongoDB' })">MongoDB</button>
+                <button data-filter="backend" ng-click="iso.arrange({ filter: ' .web-projects' })">Web Projects</button>
+                <button data-filter="backend" ng-click="iso.arrange({ filter: ' .NP-projects' })">No-profit Projects</button>
+      </div>
+</div>
+
+<div class="jumbotron clearfix">
+
+  <div class="grid clearfix" id="iso">
+    <div class="grid-item {{camper.class}}" ng-repeat="camper in campers">
+      
+      <img src="{{camper.pic}}" />
+       <div class="overlay"></div>
+
+                <div class="corner-overlay-content">INFO</div>
+
+                <div class="overlay-content">
+                    <h2>{{camper.name}}</h2>
+                    <p>{{camper.bio}}</p>
+                    <p><strong>Last challenge:</strong> {{camper.challenge}}</p>
+                    <p><strong>Last update:</strong> {{camper.date}}</p>
+                <ul>
+                  <li ng-show="camper.web"><a href="{{camper.web}}" target="_blank"><i class="fa fa-2x fa-link" ></i></a></li>
+                  <li ng-show="camper.email"><a href="{{camper.email}}" target="_blank"><i class="fa fa-2x fa-envelope-o" ></i></a></li>
+                  <li ng-show="camper.fcc"><a href="{{camper.fcc}}" target="_blank"> <big>(</big> <i class="fa fa-2x fa-fire" >  </i><big>)</big></a></li>
+                  <li ng-show="camper.fb"><a href="{{camper.fb}}" target="_blank"><i class="fa fa-2x fa-facebook-official" ></i></a></li>
+                  <li ng-show="camper.tw"><a href="{{camper.tw}}" target="_blank"><i class="fa fa-2x fa-twitter" ></i></a></li>
+                  <li ng-show="camper.lk"><a href="{{camper.lk}}" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a></li>
+                </ul>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+
