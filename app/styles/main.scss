@@ -1,7 +1,5 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-// bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-// endbower
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
 @import "modules/var";
 
 .browsehappy {
@@ -25,7 +23,7 @@ header{
 body {
   padding-bottom: 20px;
   font-family: $copy;
-  
+
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -113,15 +111,16 @@ body {
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-.grid-item { 
-  width: 20%; 
+.grid-item {
+  width: 20%;
   margin: 1%;
+  position: relative!important;
   img{
-    width:100%; 
+    width:100%;
     margin: 2%;
   }
 }
-.grid-item--width2 { width: 50%; 
+.grid-item--width2 { width: 50%;
 
 }
 
@@ -174,7 +173,7 @@ body {
     margin: 0;
     /* float: left; */
     left: 0;
-   
+
     }
 }
 
@@ -213,7 +212,7 @@ body {
     bottom: 8px;
     background:$darkgreen;
     transition: all 0.5s ease-out;
-    
+
 }
 .grid-item .corner-overlay-content {
     bottom: 15px;
@@ -236,24 +235,24 @@ div[class^='-filter'],div[class*='-filter']{
 
  .grid{
     margin-top: 30px;
+    height: 100vh;
 }
 
 @media screen and (max-width: 1500px) {
-.grid-item { 
-  width: 30%; 
+.grid-item {
+  width: 30%;
 }
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (max-width: 950px) {
-.grid-item { 
-  width: 40%; 
+.grid-item {
+  width: 40%;
 }
 }
 
 @media screen and (max-width: 700px) {
-.grid-item { 
-  width: 100%; 
+.grid-item {
+  width: 100%;
 }
 }
-

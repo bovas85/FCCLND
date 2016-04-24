@@ -1,0 +1,98 @@
+[
+     {
+        "name": "Camper 1",
+        "class":"frontend react html-css bootstrap FE-projects",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "email": "something@gmail.com",
+        "fcc": "http://google.com",
+        "tw": "http://google.com",
+        "lk": "http://google.com",
+        "web": "http://google.com",
+        "fb": "http://google.com",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+    },
+    
+     {
+        "name": "Camper 2",
+        "class":"frontend react adv-FE-projects",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "fcc": "http://google.com",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+      
+    },
+     
+     {
+        "name": "Camper 3",
+        "class":"frontend",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "tw": "http://google.com",
+        "lk": "http://google.com",
+        "web": "http://google.com",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+    },
+     
+    {
+        "name": "Camper 4",
+        "class":"backend sass git",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+    },
+    
+     {
+        "name": "Camper 5",
+        "class": "ajax",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+    },
+    
+     {
+        "name": "Camper 6",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+    },
+    
+    {
+        "name": "Camper 7",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+    },
+    
+    {
+        "name": "Camper 8",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+    },
+    
+    {
+        "name": "Camper 9",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+    },
+    
+    {
+        "name": "Camper 10",
+        "bio": "Logo for a screen printing company. They wanted a detachable/recognizable brand that didn't need the name of the company.",
+        "pic": "images/camper.png",
+        "challenge": "Pig Latin",
+        "date":"24/4/16"
+    }
+
+]
